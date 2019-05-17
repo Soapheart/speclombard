@@ -112,13 +112,15 @@ h2::after{
 }
 .block1{
 	height: 500px;
-	position: relative;
 	overflow: hidden;
 	background-position: center;
 	box-sizing: border-box;
 	background: url(../img/headerBG1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.block1 .container{
+	position: relative;
 }
 .block2{
 	padding: 75px 0 75px;
@@ -155,6 +157,7 @@ img.headerMachine{
 	position: absolute;
 	width: 600px;
 	right: 400px;
+	right: -50px;
 }
 img.machine{
 	vertical-align: middle;
@@ -214,9 +217,6 @@ img.machine{
 		width: auto;
 	}
 	.block3TextLabels{
-		width: auto;
-	}
-	.block1item{
 		width: auto;
 	}
 	.block7info{
